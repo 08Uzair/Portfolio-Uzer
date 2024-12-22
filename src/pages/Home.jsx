@@ -2,7 +2,7 @@ import React from "react";
 import imageA from "../assets/images/image1.png";
 import imageB from "../assets/images/image2.png";
 import imageC from "../assets/images/image3.png";
-import uzer from "../assets/images/uzer.png";
+import uzer from "../assets/images/uzer.jpg";
 import pulse from "../assets/images/pulse.gif";
 import hashnode from "../assets/images/hashnode.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
