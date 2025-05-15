@@ -3,8 +3,24 @@ import React from "react";
 import image1 from "../assets/images/image1.png";
 import image2 from "../assets/images/image2.png";
 import image3 from "../assets/images/image3.png";
+import image4 from "../assets/images/techChaze-web.png";
+import image5 from "../assets/images/bharatKare.png";
 const Projects = () => {
   const projects = [
+    {
+      image: image4,
+      title: "TECHCHAZE APPLICATION",
+      link: "https://techchaze.co.uk",
+      youTube: "https://youtu.be/ZAcG5X5CwWs?feature=shared",
+      gitHub: "https://github.com/08Uzair/TechChaze-Uzer-Qureshi.git",
+    },
+    {
+      image: image5,
+      title: "BHARATKARE APPLICATION",
+      link: "https://bharatkare-uzerqureshi.netlify.app/",
+      youTube: "https://youtu.be/27yBxhKbaco",
+      gitHub: "https://github.com/08Uzair/Bharatkare-Uzer.git",
+    },
     {
       image: image3,
       title: "ECCOMERCE APPLICATION",
@@ -26,15 +42,8 @@ const Projects = () => {
       youTube: "https://youtu.be/LKaM1KRHbGc",
       gitHub: "https://github.com/08Uzair/Uzer-2025",
     },
-    {
-      image: image1,
-      title: "TODO APPLICATION",
-      link: "#",
-      youTube: "",
-      gitHub: "",
-    },
   ];
-
+  console.log(projects);
   return (
     <div className="App">
       <div className="main3">

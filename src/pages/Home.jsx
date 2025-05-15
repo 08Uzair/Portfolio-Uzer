@@ -2,12 +2,14 @@ import React from "react";
 import imageA from "../assets/images/image1.png";
 import imageB from "../assets/images/image2.png";
 import imageC from "../assets/images/image3.png";
-import uzer from "../assets/images/uzer.jpg";
+import uzer from "../assets/images/uzer.png";
 import pulse from "../assets/images/pulse.gif";
 import hashnode from "../assets/images/hashnode.png";
+import techLogo from "../assets/images/tech.png";
+import bharatLogo from "../assets/images/bharat.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { NavLink } from "react-router-dom";
-import resume from "../assets/images/Resume.pdf";
+import resume from "../assets/images/UZER_QURESHI_RESUME.pdf";
 import certificate from "../assets/images/Certificate.pdf";
 const Home = () => {
   const [text] = useTypewriter({
@@ -68,7 +70,7 @@ const Home = () => {
         </div>
         <div className="item">
           <div className="cardA">
-            <h1>00</h1>
+            <h1>02</h1>
             <p>
               <i className="bx bxs-calendar-star"></i> Experience
             </p>
@@ -115,10 +117,28 @@ const Home = () => {
           }}
           className="lbox item"
         >
-          I'm a passionate Web Developer I like solving Problems using Computer
-          Science, building the Front-End and Back-End of Websites and Web
-          Applications using MERN Stack and along with this I am also a Newbie
-          Open Source Contirbutor
+          <div className=" flex  items-center justify-center text-center flex-col">
+            <h1 className="txt2 ">EXPERIENCED AT</h1>
+
+            <div className="flex items-center justify-center text-center">
+              <div className=" flex items-center justify-center flex-col">
+                <a href="https://techchaze.co.uk">
+                  <img
+                    className=" bg-[#ffffff08] rounded-[15px]  cursor-pointer w-[15%]  "
+                    src={techLogo}
+                  />
+                </a>
+              </div>
+              <div className="flex bg-[#ffffff08] rounded-[15px]   items-center justify-center">
+                <a href="https://bharatkare.com/">
+                  <img
+                    className="cursor-pointer w-[60%] m-2  py-[5px]"
+                    src={bharatLogo}
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
           <br /> Made By Uzer Qureshi &copy; 2024/2025
         </div>
         <div className="item">
@@ -186,8 +206,11 @@ const Home = () => {
               <i className="bx bxs-business"></i> Pune University
             </p>
             <p>
-              <i className="bx bxs-graduation"></i> Junior
+              <i className="bx bxs-graduation"></i> Amity Univ. Noida 2026
             </p>
+            {/* <p>
+              <i className="bx bxs-business"></i> Sophomer
+            </p> */}
           </div>
           <div className="b3">
             <div className="btn">
@@ -267,7 +290,10 @@ const Home = () => {
                 <div className="b3">
                   <p>
                     <i className="bx bxl-python"></i>Python
-                  </p>
+                  </p>{" "}
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-c-plus-plus"></i>C++
                   </p>
@@ -277,6 +303,9 @@ const Home = () => {
                   <p>
                     <i className="bx bxl-tailwind-css"></i>Tailwind CSS
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-c-plus-plus"></i>C++
                   </p>
@@ -289,18 +318,27 @@ const Home = () => {
                   <p>
                     <i className="bx bxl-c-plus-plus"></i>C++
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-javascript"></i> JavaScript
                   </p>
                   <p>
                     <i className="bx bxl-tailwind-css"></i>Tailwind CSS
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-c-plus-plus"></i>C++
                   </p>
                   <p>
                     <i className="bx bxl-javascript"></i> JavaScript
-                  </p>
+                  </p>{" "}
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                 </div>
               </div>
               <div className="scroll-track1">
@@ -314,6 +352,9 @@ const Home = () => {
                   <p>
                     <i className="bx bxl-javascript"></i> JavaScript
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-tailwind-css"></i>Tailwind CSS
                   </p>
@@ -323,6 +364,9 @@ const Home = () => {
                   <p>
                     <i className="bx bxl-javascript"></i> JavaScript
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-python"></i>Python
                   </p>
@@ -332,6 +376,9 @@ const Home = () => {
                   <p>
                     <i className="bx bxl-javascript"></i> JavaScript
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                   <p>
                     <i className="bx bxl-tailwind-css"></i>Tailwind CSS
                   </p>
@@ -341,6 +388,9 @@ const Home = () => {
                   <p>
                     <i className="bx bxl-javascript"></i> JavaScript
                   </p>
+                  <p>Next JS</p>
+                  <p>Framer Motion</p>
+                  <p>Animation On Scroll - AOS</p>
                 </div>
               </div>
             </div>
